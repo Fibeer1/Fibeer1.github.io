@@ -12,20 +12,34 @@
     </head>
     <body>       
         <main>
-            <nav>
-                <a class="first-button" href="#about">About Me</a>
-                <a href="#games">My Games</a>
-                <a href="#news">Latest News</a>
-                <a href="#contact">Contact</a>
+            <nav id = "home">
+                <a class="first-button" href="#home">Home</a>
+                <div class="nav-desktop">
+                    <a href="#about">About Me</a>
+                    <a href="#games">My Games</a>
+                    <a href="#news">Latest News</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="nav-mobile">
+                    <label class="hamburger" for="menu-toggle">☰</label>
+                    <input type="checkbox" id="menu-toggle">
+                    <div class="nav-links">
+                        <a href="#about">About Me</a>
+                        <a href="#games">My Games</a>
+                        <a href="#news">Latest News</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
             </nav>
             <header>
-                <h1>FibeerDev</h1>
-                <p>Independent game developer.</p>
+                <h1 class = "header-text">FibeerDev</h1>
+                <p class = "header-text">Independent game developer.</p>
             </header>
             <article class = "about" id = "about">
                 <h1>About Me</h1>
                 <p>
-                    My name is Fibeer. I am a Bulgarian independent game developer with a strong foundation 
+                    My name is Filip. I am a Bulgarian independent game developer with a strong foundation 
                     in Unity C#, HTML, and CSS. I have been working in game development since 2020 and
                     have released 2 games so far, PASSAGE and Nightmares Beyond. I am a big fan of 
                     horror games and dynamic gameplay systems, both of which I am currently 
@@ -127,6 +141,7 @@
             <footer>
                 <p>Copyright © 2026 FibeerDev</p>
             </footer>
-        </main>                      
+        </main>
+        <script src="./js/burgerMenuDisabler.js"></script>
     </body>
 </html>

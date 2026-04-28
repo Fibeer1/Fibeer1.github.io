@@ -23,6 +23,8 @@ button, input, select, textarea
 body
 {
     background-image: url('../Media/BodyBackground.jpg');
+    background-size: 480px;
+    width: 100%;
     background-position: center;
     background-repeat: repeat;
 }
@@ -34,6 +36,7 @@ nav
 {
     display: flex;
     background-image: url('../Media/NavBackground.jpg');
+    background-size: 480px;
     background-position: center;
     background-repeat: repeat;
     align-items: center;
@@ -49,21 +52,34 @@ nav a:hover
 }
 header
 {
+    display: flex;
+    flex-direction: column;
     background-image: url('../Media/HeaderBackground.jpg');
+    background-size: 480px;
     background-position: center;
     background-repeat: repeat;
-    box-sizing: border-box;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 0;
+}
+.header-text
+{
+    margin: 10px;
 }
 .about
 {
     background-image: url('../Media/NavBackground.jpg');
+    background-size: 480px;
     background-position: center;
     background-repeat: repeat;
     align-items: center;
     margin: 0 auto;
     margin-top: 0;
+}
+.article-headline
+{
+    display:flex;
+    flex-direction: column;
 }
 .article-headline-contact
 {
@@ -105,7 +121,6 @@ header
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     background-color: rgba(0, 0, 0, 0.337);
 }
 .news-article img
@@ -137,12 +152,12 @@ header
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
 }
 footer
 {
     display: flex;
     background-image: url('../Media/NavBackground.jpg');
+    background-size: 480px;
     background-position: center;
     background-repeat: repeat;
     align-items: center;

@@ -4,7 +4,6 @@ h1
 }
 body
 {
-    background-size: 480px;
     line-height: 1.25;
     margin: 0;
     padding: 0;
@@ -13,7 +12,15 @@ nav
 {
     height: 50px;
     gap: 25px;
-    background-size: 480px;
+}
+.nav-desktop 
+{ 
+    display: flex; 
+    gap: 25px;
+}
+.nav-mobile  
+{ 
+    display: none; 
 }
 nav a.first-button
 {
@@ -21,18 +28,11 @@ nav a.first-button
 }
 header
 {
-    background-size: 100%;
     height: 200px;
-    padding: 40px;
     font-size: 25px;
-}
-header p
-{
-    font-size: 20px;
 }
 .about
 {
-    background-size: 480px;
     width: 500px;
 }
 .about p
@@ -74,7 +74,7 @@ header p
 }
 .game img
 {
-    width: 300px;
+    width: 90%;
 }
 .game a
 {
@@ -89,6 +89,7 @@ header p
 }
 .news-article
 {
+    justify-content: flex-start;
     height: 575px;
     flex: 1;
     padding: 15px;
@@ -104,7 +105,7 @@ header p
 }
 .news-article img
 {
-    width: 600px;
+    width: 90%;
 }
 .news-article a, .contact-form a
 {
@@ -126,6 +127,7 @@ header p
 }
 .contact-form
 {
+    justify-content: flex-start;
     height: 550px;
     width: 300px;
     flex: 1;
@@ -142,6 +144,5 @@ header p
 }
 footer
 {
-    background-size: 480px;
     height: 50px;
 }

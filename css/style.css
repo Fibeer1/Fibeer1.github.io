@@ -27,9 +27,6 @@ body
     width: 100%;
     background-position: center;
     background-repeat: repeat;
-}
-main
-{   
     font-family: "Orbitron";
 }
 nav
@@ -43,10 +40,6 @@ nav
     width: 100%;
 }
 nav a
-{
-    text-decoration: none;
-}
-nav a:hover
 {
     text-decoration: none;
 }
@@ -72,7 +65,6 @@ header
     background-size: 480px;
     background-position: center;
     background-repeat: repeat;
-    align-items: center;
     margin: 0 auto;
     margin-top: 0;
 }
@@ -109,10 +101,6 @@ header
     justify-content: center;
     background-color:rgba(25, 46, 28, 0.819);
 }
-.game a:hover
-{
-    text-decoration: none;
-}
 .news
 {
     display: flex;
@@ -134,10 +122,6 @@ header
     align-items: center;
     justify-content: center;
     background-color:rgba(25, 46, 28, 0.819);
-}
-.news-article a:hover
-{
-    text-decoration: none;
 }
 .contact
 {

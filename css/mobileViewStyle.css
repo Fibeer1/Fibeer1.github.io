@@ -176,9 +176,9 @@ header
 {
     height: 200px;
     margin-bottom: 15px;
-    min-width: 300px;
+    min-width: 50%;
+    max-width: 99%;
     min-height: 100px;
-    max-width: 727px;
     max-height: 250px;
 }
 footer

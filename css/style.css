@@ -132,6 +132,7 @@ header
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    margin-top: 10px;
 }
 .contact-links a
 {

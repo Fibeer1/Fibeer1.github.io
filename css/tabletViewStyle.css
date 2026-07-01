@@ -128,43 +128,11 @@ header
 {
     margin-left: 20px;
 }
-.news-article a, .contact-form a
+.news-article a
 {
     width: 100px;
     border-radius: 2px;
     padding: 10px 20px;
-}
-.contact
-{
-    gap: 20px;
-}
-.contact-map
-{
-    width: 25%;
-    height: 25%;
-    flex: 1;
-    padding: 15px;
-    margin-left: auto;
-}
-.contact-form
-{
-    justify-content: flex-start;
-    height: 550px;
-    width: 50%;
-    flex: 1;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: 15px;
-    margin-top: 15px;
-}
-.contact-form-about
-{
-    height: 200px;
-    margin-bottom: 15px;
-    min-width: 50%;
-    max-width: 99%;
-    min-height: 100px;
-    max-height: 250px;
 }
 footer
 {

@@ -141,10 +141,6 @@ header
     line-height: 0;
     margin: 0 10px;
 }
-.contact-links img
-{
-    width: 32px;
-}
 footer
 {
     display: flex;

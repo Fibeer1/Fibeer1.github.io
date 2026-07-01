@@ -115,7 +115,7 @@ header
 {
     align-self: center;
 }
-.news-article a, .contact-form a
+.news-article a
 {
     display: flex;
     text-decoration: none;
@@ -123,19 +123,26 @@ header
     justify-content: center;
     background-color:rgba(25, 46, 28, 0.819);
 }
-.contact
+.article-headline-contact
 {
-    display: flex;
+    margin-top: 10px;
 }
-.contact-map
+.contact-links
 {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
 }
-.contact-form
+.contact-links a
 {
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 auto;
+    display: inline-block;
+    line-height: 0;
+    margin: 0 10px;
+}
+.contact-links img
+{
+    width: 32px;
 }
 footer
 {
@@ -147,4 +154,5 @@ footer
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 10px;
 }

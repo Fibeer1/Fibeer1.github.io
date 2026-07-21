@@ -90,22 +90,21 @@ header
 .news-article
 {
     justify-content: flex-start;
-    height: 575px;
     flex: 1;
     padding: 15px;
 }
 .news-article p
 {
     width: 75%;
-    height: 300px;
 }
 .news-article p.date
 {
-    font-size: 8px;
+    font-size: 12px;
 }
 .news-article img
 {
     width: 90%;
+    padding-bottom: 10px;
 }
 .news-article a
 {

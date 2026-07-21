@@ -138,11 +138,12 @@ header
 }
 .news-article p.date
 {
-    font-size: 8px;
+    font-size: 12px;
 }
 .news-article img
 {
     width: 90%;
+    padding-bottom: 10px;
 }
 .news-article a
 {
